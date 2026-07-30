@@ -1,5 +1,5 @@
 ---
-title: "Week 5 - DynamoDB Fundamentals & Global Infrastructure CloudFront"
+title: "Week 5 - DynamoDB Operations & Web Acceleration with CloudFront"
 date: 2026-06-29
 weight: 5
 chapter: false
@@ -9,29 +9,29 @@ url: "/en/1-worklog/1.5-week5/"
 
 ### Weekly Topic
 
-Non-relational Database + Global Infrastructure Content Delivery Network
+Using NoSQL DynamoDB + Content Delivery with CloudFront & Route 53
 
 ### Weekly Objectives
 
-* Understand and operate a high-performance non-relational database service.
-* Leverage global infrastructure to reduce web content access latency.
+* Design and execute practical CRUD operations on DynamoDB tables.
+* Attach a domain and establish a CDN network to accelerate web access.
 
 ### Work Schedule
 
-| Date | Day | Task Description | Reference Links |
+| Date | Day | Task Description | Lab / Project |
 | :--- | :--- | :--- | :--- |
-| 29/06/2026 | Monday | - Grasp DynamoDB database model (NoSQL)<br>- Learn about Partition Keys and Sort Keys<br>- Read documentation on compute capacity (RCU/WCU) | https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ |
-| 30/06/2026 | Tuesday | - Practice DynamoDB operations:<br>&emsp;+ Initialize a user data table<br>&emsp;+ Use UI to insert (PutItem) and fetch (GetItem) data<br>&emsp;+ Differentiate Scan and Query operations | https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.html |
-| 01/07/2026 | Wednesday | - Explore Amazon Route 53 DNS service<br>- Understand CloudFront CDN architecture<br>- The role of Edge Locations | https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/ |
-| 02/07/2026 | Thursday | - Configure Content Delivery Network:<br>&emsp;+ Initialize new CloudFront Distribution<br>&emsp;+ Point Origin to the static S3 Bucket<br>&emsp;+ Configure Cache Behavior policies | https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/GettingStarted.html |
-| 03/07/2026 | Friday | - Assess access performance via CloudFront links versus raw S3 links<br>- Discard drafted Route 53 configurations<br>- Summarize week 5 progress | https://cloudjourney.awsstudygroup.com/ |
+| 29/06/2026 | Monday | Research non-relational database DynamoDB. Create tables and define Keys. | [Module: DynamoDB](https://cloudjourney.awsstudygroup.com/) |
+| 30/06/2026 | Tuesday | Practice data CRUD operations on DynamoDB using the console and scripts. | [Lab 09 - DynamoDB CRUD](https://cloudjourney.awsstudygroup.com/) |
+| 01/07/2026 | Wednesday | Explore AWS DNS service (Route 53). Initialize a Hosted Zone. | [Module: Route 53](https://cloudjourney.awsstudygroup.com/) |
+| 02/07/2026 | Thursday | Configure CDN with Amazon CloudFront to accelerate content delivery from S3. | [Lab 10 - CloudFront Setup](https://cloudjourney.awsstudygroup.com/) |
+| 03/07/2026 | Friday | Route domain from Route 53 to CloudFront. Summarize practical tasks of the week. | Progress Report |
 
 ### Expected Outcomes
 
-* DynamoDB tables are properly designed for high performance with rational partition keys.
-* Static content is cached at edge locations of the global infrastructure.
+* Proficiently add/edit/delete items in DynamoDB.
+* Static website loads faster due to caching at CloudFront edge locations.
 
 ### Week 5 References
 
-* Amazon DynamoDB Docs: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/
-* Amazon CloudFront Docs: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/
+* [Lab 09 - Amazon DynamoDB](https://cloudjourney.awsstudygroup.com/)
+* [Lab 10 - Route 53 & CloudFront](https://cloudjourney.awsstudygroup.com/)

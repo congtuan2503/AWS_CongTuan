@@ -1,5 +1,5 @@
 ---
-title: "Tuần 4 - Kiến trúc không máy chủ: Lambda & API Gateway"
+title: "Tuần 4 - Xây dựng API Serverless với Lambda & API Gateway"
 date: 2026-06-22
 weight: 4
 chapter: false
@@ -9,29 +9,28 @@ url: "/vi/1-worklog/1.4-week4/"
 
 ### Chủ đề tuần
 
-Kiến trúc không máy chủ + Cổng giao tiếp API ứng dụng
+Triển khai tính toán Serverless + Cấu hình Cổng API
 
 ### Mục tiêu tuần
 
-* Chuyển đổi tư duy sang kiến trúc không máy chủ để giảm thiểu công tác vận hành.
-* Tích hợp chức năng xử lý mã với cổng giao tiếp API bên ngoài.
+* Tự tay viết và deploy các đoạn code xử lý sự kiện lên AWS Lambda.
+* Xuất bản các API RESTful để tương tác với Lambda thông qua API Gateway.
 
 ### Lịch làm việc
 
-| Ngày | Thứ | Mô tả công việc | Nguồn tài liệu |
+| Ngày | Thứ | Mô tả công việc | Lab / Dự án |
 | :--- | :--- | :--- | :--- |
-| 22/06/2026 | Thứ 2 | - Phân tích kiến trúc Serverless (Không máy chủ)<br>- Tìm hiểu vòng đời thực thi mã của AWS Lambda<br>- Khảo sát các cơ chế kích hoạt (Trigger) | https://docs.aws.amazon.com/lambda/latest/dg/ |
-| 23/06/2026 | Thứ 3 | - Thực hành viết hàm Lambda:<br>&emsp;+ Tạo hàm Lambda đơn giản bằng Python/Node.js<br>&emsp;+ Thiết lập các biến môi trường<br>&emsp;+ Theo dõi kết quả xuất ra trên CloudWatch Logs | https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html |
-| 24/06/2026 | Thứ 4 | - Nghiên cứu cổng giao tiếp Amazon API Gateway:<br>&emsp;+ Phân biệt RESTful API và HTTP API<br>&emsp;+ Khái niệm về Tài nguyên (Resource) và Phương thức (Method) | https://docs.aws.amazon.com/apigateway/latest/developerguide/ |
-| 25/06/2026 | Thứ 5 | - Tích hợp API Gateway và Lambda:<br>&emsp;+ Định tuyến yêu cầu POST/GET đến Lambda<br>&emsp;+ Triển khai (Deploy) API lên môi trường Stage<br>&emsp;+ Kiểm thử luồng gọi bằng Postman | https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html |
-| 26/06/2026 | Thứ 6 | - Tổng kết mô hình không máy chủ<br>- Xóa các điểm cuối API thử nghiệm tránh phát sinh phí<br>- Ghi nhận nhật ký công việc tuần 4 | https://cloudjourney.awsstudygroup.com/ |
+| 22/06/2026 | Thứ 2 | Tìm hiểu mô hình điện toán Serverless trên AWS. Đọc tài liệu Lambda. | [Module: Serverless](https://cloudjourney.awsstudygroup.com/) |
+| 23/06/2026 | Thứ 3 | Viết function xử lý dữ liệu đầu tiên với AWS Lambda (Node.js/Python). Test log trên CloudWatch. | [Lab 07 - Lambda Function](https://cloudjourney.awsstudygroup.com/) |
+| 24/06/2026 | Thứ 4 | Học cách tạo RESTful API với API Gateway. Tạo các methods (GET, POST). | [Module: API Gateway](https://cloudjourney.awsstudygroup.com/) |
+| 25/06/2026 | Thứ 5 | Test luồng kết nối từ API Gateway gọi đến Lambda. Dùng Postman để verify response. | [Lab 08 - Build API](https://cloudjourney.awsstudygroup.com/) |
+| 26/06/2026 | Thứ 6 | Deploy API lên stage (dev/prod). Cập nhật worklog tuần 4. | Báo cáo tiến độ |
 
 ### Kết quả mong đợi
 
-* Hàm Lambda thực thi mã thành công mà không cần cung cấp máy chủ vật lý hay ảo.
-* Cổng API xử lý các yêu cầu HTTP và trả về phản hồi hợp lệ từ kiến trúc không máy chủ.
+* Function Lambda chạy ổn định, trả về kết quả chính xác theo input.
+* API endpoint public có thể gọi được từ bên ngoài và định tuyến đúng vào Lambda.
 
 ### Tài liệu tham khảo Tuần 4
 
-* Hướng dẫn AWS Lambda: https://docs.aws.amazon.com/lambda/latest/dg/
-* Hướng dẫn API Gateway: https://docs.aws.amazon.com/apigateway/latest/developerguide/
+* [Lab 07 & 08 - Serverless and API Management](https://cloudjourney.awsstudygroup.com/)

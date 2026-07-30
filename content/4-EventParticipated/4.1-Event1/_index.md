@@ -1,80 +1,96 @@
 ---
-title: "Event 1: AWS Agentic AI Build Week (AABW)"
-date: 2026-07-27
+title: "Event 1: FCAJ x Agentic AI Build Week"
+date: 2026-07-25
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Summary Report: “AWS Agentic AI Build Week (AABW)”
+# Summary Report: “FCAJ x Agentic AI Build Week: Show Up. Build. Pitch. WIN!”
 
-### Event Overview
-- **Event Name:** AWS Agentic AI Build Week (AABW)
-- **Date & Time:** July 27, 2026
-- **Location:** 26th Floor, Bitexco Financial Tower, 02 Hai Trieu Street, Sai Gon Ward, Ho Chi Minh City
-- **Role:** Attendee
+### Event Overview & Role
 
----
+- **Event Title:** FCAJ x Agentic AI Build Week: Show Up. Build. Pitch. WIN!
+- **Organizers:** First Cloud Account / Agent Journey (FCAJ) Community in collaboration with AWS and JI Fund.
+- **Date & Time:** 09:00, July 25, 2026
+- **Location:** 36th Floor, Bitexco Financial Tower, 02 Hai Trieu Street, Sai Gon Ward, Ho Chi Minh City
+- **Role:** Participant
 
-### 1. Event Objectives
+### Event Objectives
 
-The **AWS Agentic AI Build Week (AABW)** was an intensive 24-hour hackathon designed to challenge participants to build practical, real-world solutions powered by Next-Generation Autonomous AI Agents (Agentic AI). The core goals of the event included:
+- Promote innovative mindsets and the application of Agentic AI technologies in cloud computing.
+- Host a hands-on Hackathon for teams to build, pitch, and compete with AI-Native projects.
+- Solve real-world enterprise pain points and challenges in Cloud Engineering.
 
-- **Rapid Product Development:** Constructing a fully functional Minimum Viable Product (MVP) under strict 24-hour time constraints.
-- **Hands-On Cloud & AI Experience:** Integrating specialized AWS services alongside custom AI architectures.
-- **Real-World System Operations:** Bridging academic theory with enterprise-grade cloud system deployment.
-- **High-Velocity Teamwork:** Mastering rapid ideation, task division, parallel execution, and live product demonstrations under pressure.
+### Keynote Speakers & Experts
 
----
-
-### 2. Analysis of Featured Hackathon Projects
-
-During the showcase, I had the opportunity to observe and analyze three outstanding projects that demonstrated innovative uses of Agentic AI across diverse industries:
-
-#### 2.1. Team 3KA – S.H.E.P.H.E.R.D (Autonomous Crowd Flow Management)
-- **Problem Statement:** Traditional crowd management at high-density venues relies on manual monitoring, leading to delayed hazard responses and poor scalability.
-- **Proposed Solution:** An intelligent computer-vision AI camera system that tracks human movement, measures crowd density in real time, forecasts bottleneck congestion, and triggers automated emergency alerts.
-- **Tech Stack:** YOLO, ByteTrack, Amazon SageMaker, Amazon Bedrock Agent, Core + Strands Agent Framework, and React Dashboard.
-- **Agentic Architecture:** Features a dual-layer design:
-  1. *Autonomous Monitor Layer:* Continuously streams and processes visual analytics.
-  2. *Operator Copilot Layer:* Enables event managers to query real-time status and receive operational recommendations via natural language.
-
-#### 2.2. Team Signal Scout – Enterprise Strategic Intelligence System
-- **Problem Statement:** Corporate financial and operational data is fragmented across siloed systems, making early detection of strategic risks difficult.
-- **Proposed Solution:** An automated telemetry pipeline that aggregates corporate performance metrics and uses AI Agents to detect early signals of corporate restructuring or market pivots.
-- **Architecture Highlights:** Emphasized decentralized microservice deployment, end-to-end observability, and automated CI/CD. The team provided a transparent AWS cost model (ranging from a baseline of ~$81/month to ~$359/month under peak traffic) along with architectural recommendations for cost reduction.
-
-#### 2.3. Team Plan V – SA Professional (Automated Solutions Architecture Assistant)
-- **Problem Statement:** Solutions Architects (SAs) spend extensive hours manually parsing requirement documents (BRD/PRD), drafting diagrams, and estimating cloud costs for complex proposals.
-- **Proposed Solution:** An interactive AI assistant that ingests business requirements, drafts high-level cloud architectures, generates editable Draw.io / AWS diagrams, and calculates localized pricing for the `ap-southeast-1` region.
-- **Impact:** Replaces manual drafting with conversational iterative refinement, automatically generating production-ready Infrastructure as Code (IaC) scripts within minutes.
+- **Mr. Joseph Marasotta** – Head of Technology, AWS ASEAN
+- **Mr. Nguyen Gia Hung** – Head of Solution Architect, AWS Vietnam
 
 ---
 
-### 3. Key Technical Takeaways
+### Key Highlights
 
-- **Complex System Integration:** Team 3KA demonstrated how to pair real-time edge processing (YOLO) with cloud-based AI inference (SageMaker & Bedrock) while maintaining minimal end-to-end latency.
-- **Cloud Cost Optimization (FinOps):** Signal Scout’s detailed breakdown of Bedrock token usage, compute instance scaling, and WAF rules highlighted that effective software engineering requires balancing technical performance with cloud cost efficiency.
-- **Workflow Automation:** Plan V illustrated how AI can automate technical documentation and IaC template generation, a capability directly applicable to full-stack cloud projects.
+#### Keynote Guidance from AWS Leadership
+- Experts shared insights on innovation mindsets in the era of **Agentic AI** and the imperative of workflow automation.
+- Emphasized the vital role of young engineers in mastering AI Agents to lead future tech transformations.
+
+#### Product Demonstration & Team Pitching
+- **Team OneTeam (1st Place):** *KFC Voice/Conversational Agent* — Multi-channel AI ordering assistant (Zalo, WhatsApp) optimizing AWS infrastructure costs.
+- **Team Signal Scout (2nd Place):** *Multi-Agent Corporate Strategy Analysis* — AI system scraping data and analyzing competitor strategic signals.
+- **Team PLAN (Core Highlight Project):** *SA Professional AI-Native App* — AI assistant empowering Cloud Solution Architects to generate architecture diagrams, calculate costs, and output IaC automatically.
+- **Team 3K:** *Shepherd* — Automated crowd monitoring and routing system using AI Camera & AWS Kinesis.
+- **Team Six Pillars:** *Adaptive Workflow Engine* — Multi-Agent Anti-Money Laundering (AML) investigation engine for banking.
+
+#### Technical Deep Dive: AI Assistant for Cloud Solution Architects (Team PLAN)
+- **Real-World Pain Point:** Solution Architects (SAs) frequently face urgent requests to design Cloud Architecture, prepare cost estimations, and provide IaC code within 1–2 days or overnight.
+- **Breakthrough Features & Solutions:**
+  1. *Natural Language & Policy Parsing:* Input natural language requirements or upload enterprise policy guidelines.
+  2. *Automated Architecture Diagram Generation:* AI Agent auto-generates complete architecture diagrams directly on Draw.io using official AWS icons.
+  3. *Real-time Cost Estimation:* Export real-time cost breakdown reports based on official AWS pricing.
+  4. *IaC Generation (Terraform):* Automatically output reusable Terraform modules adhering to Best Practices.
+  5. *Validation & Guardrails:* Enforce blacklists for unapproved services and support Auto-deploy post-approval.
 
 ---
 
-### 4. Management & Teamwork Insights
+### Key Takeaways
 
-Participating in and observing a 24-hour hackathon provided deep insights into managing technical stress and team dynamics:
+#### Design Mindset
+- **Agentic AI Approach:** Mindset for constructing automated systems powered by goal-driven AI Agents.
+- **Problem-first & User-centric:** Focused directly on relieving time and effort pain points for Solution Architects.
 
-- **Navigating Technical Crisis:** Teams encountered unexpected hurdles such as Git merge conflicts, sudden API rate limits, and accidental credential leaks. Achieving a deep state of focus ("flow state") helped teams convert panic into structured troubleshooting.
-- **Four Pillars of Execution:** Successful teams relied on:
-  1. Clear project boundaries.
-  2. Modular boilerplate templates prepared in advance.
-  3. Strict role division.
-  4. Ample time reserved for rehearsing the live product demo.
-- **Execution Mindset:** *"Showing up is half the battle won."* A polished, working core feature set delivers significantly more value than an ambitious but non-functional concept.
+#### Technical Architecture
+- Mastered **High-level Context Engineering** and **Multi-Agent Memory & Streaming Workflow** architecture.
+- Gained hands-on experience integrating deep AWS services: **AWS Bedrock, Lambda, DynamoDB, Amplify, CloudWatch, X-Ray** alongside **Terraform**.
 
 ---
 
-### 5. Practical Application to My Work
+### Applying to Work
 
-- **Security & Secret Management:** Observing Team 3KA’s accidental credential commit reinforced the critical importance of strict `.gitignore` configurations, environment variables (`.env`), and immediate API key rotation protocols — practices I actively implemented in the JWT authentication layer for the **Tracker Maintenance** project.
-- **Architecture-First Development:** Moving forward, I will systematically model system architecture diagrams and perform cloud cost projections (inspired by Plan V) prior to writing code for any AWS deployment.
+- **Multi-Agent Workflow Adoption:** Apply Multi-Agent patterns to internship lab tasks and projects.
+- **Leveraging AWS Bedrock & IaC:** Combine AWS Bedrock with Terraform to automate infrastructure code generation safely.
+- **Optimizing Architecture Design Workflows:** Utilize automated diagramming and real-time cost estimation concepts for internship project reports.
 
+---
+
+### Event Experience
+
+Attending the **FCAJ x Agentic AI Build Week** was an inspiring and impactful experience.
+
+#### Learning from Industry Experts & Hackathon Teams
+- Gained exposure to cutting-edge technology trends directly from senior leaders at AWS ASEAN and AWS Vietnam.
+- Learned effective technical pitching techniques by observing competitive presentations.
+
+#### Real-World Insights
+- Understood how to transform an AI concept into a working Proof of Concept (POC) within a 24-hour Hackathon timeframe.
+- Gained a deep appreciation for combining modern AI capabilities with scalable AWS cloud infrastructure.
+
+#### Event Photos & Proof of Attendance
+
+![Event Participation Proof](/images/event2.jpg)
+*Figure 4.2.1: Proof of participation at FCAJ x Agentic AI Build Week at Bitexco Financial Tower.*
+
+![Event Atmosphere](/images/event2_photo.jpg)
+*Figure 4.2.2: Event atmosphere and networking session.*
+
+> Overall, the event not only equipped me with breakthrough Agentic AI knowledge but also inspired me to continuously elevate my technical skills in Cloud Computing.

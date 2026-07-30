@@ -1,5 +1,5 @@
 ---
-title: "Tuần 9 - Kiểm thử toàn diện, Xử lý sự cố & Báo cáo tổng kết"
+title: "Tuần 9 - Đánh giá bảo mật, Fix bug & Bàn giao dự án"
 date: 2026-07-25
 weight: 9
 chapter: false
@@ -9,28 +9,28 @@ url: "/vi/1-worklog/1.9-week9/"
 
 ### Chủ đề tuần
 
-Đảm bảo chất lượng hệ thống + Xử lý sự cố kỹ thuật + Báo cáo cuối kỳ
+Kiểm thử (Test) + Sửa lỗi + Viết báo cáo thực tập
 
 ### Mục tiêu tuần
 
-* Rà soát và xử lý mọi sự cố kỹ thuật để đảm bảo tính ổn định cao nhất.
-* Hoàn thiện và nộp tài liệu báo cáo tổng kết toàn bộ chương trình đào tạo.
+* Quét và fix các lỗ hổng bảo mật, dọn rác hệ thống để tiết kiệm chi phí.
+* Hoàn thành văn bản báo cáo tổng kết quá trình 3 tháng thực tập.
 
 ### Lịch làm việc
 
-| Ngày | Thứ | Mô tả công việc | Nguồn tài liệu |
+| Ngày | Thứ | Mô tả công việc | Lab / Dự án |
 | :--- | :--- | :--- | :--- |
-| 27/07/2026 | Thứ 2 | - Đảm bảo chất lượng chức năng (QA):<br>&emsp;+ Kiểm thử toàn diện đầu cuối (End-to-end Testing)<br>&emsp;+ Quét và kiểm tra lỗ hổng bảo mật cơ bản<br>&emsp;+ Thử nghiệm kịch bản chịu tải | Tài liệu QA nội bộ |
-| 28/07/2026 | Thứ 3 | - Xử lý sự cố (Troubleshooting):<br>&emsp;+ Phân tích nhật ký lỗi thu thập từ CloudWatch<br>&emsp;+ Vá các lỗi phần mềm (Bug fixing)<br>&emsp;+ Tối ưu hóa cấu hình để giảm độ trễ phản hồi | https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/ |
-| 29/07/2026 | Thứ 4 | - Thu hồi tài nguyên dư thừa (Clean-up):<br>&emsp;+ Xóa các phiên bản máy chủ nháp<br>&emsp;+ Gỡ bỏ các Elastic IP không được liên kết<br>&emsp;+ Chốt trạng thái cấu hình hệ thống cuối cùng | https://cloudjourney.awsstudygroup.com/ |
-| 30/07/2026 | Thứ 5 | - Biên soạn văn bản báo cáo:<br>&emsp;+ Chụp màn hình minh chứng các tài nguyên đã khởi tạo<br>&emsp;+ Viết mô tả luồng hoạt động của hệ thống<br>&emsp;+ Bắt đầu trình bày báo cáo thực tập cuối kỳ | Mẫu báo cáo FCAJ |
-| 31/07/2026 | Thứ 6 | - Căn chỉnh định dạng văn bản báo cáo<br>- Bàn giao tài liệu thiết kế và mã nguồn<br>- Nộp báo cáo tổng kết cuối kỳ qua hệ thống | Hệ thống FCAJ |
+| 27/07/2026 | Thứ 2 | Kiểm thử bảo mật cơ bản (Scan Security Groups, rà soát IAM roles). Test end-to-end các luồng. | Dự án cuối khóa |
+| 28/07/2026 | Thứ 3 | Review lại toàn bộ kiến trúc. Sửa lỗi phát sinh (Fix bug) trong quá trình test. | Dự án cuối khóa |
+| 29/07/2026 | Thứ 4 | Dọn dẹp (Clean-up) các resources test không cần thiết để tối ưu chi phí hạ tầng. | Dự án cuối khóa |
+| 30/07/2026 | Thứ 5 | Thu thập logs, metrics. Viết tài liệu mô tả kiến trúc (Architecture Report). | Viết Báo cáo |
+| 31/07/2026 | Thứ 6 | Chỉnh sửa format báo cáo cuối cùng. Nộp báo cáo và bàn giao source code/hạ tầng. | Bàn giao |
 
 ### Kết quả mong đợi
 
-* Hệ thống dự án chạy ổn định, an toàn, đã được dọn dẹp tài nguyên thừa.
-* Báo cáo cuối kỳ hoàn chỉnh, đúc kết được toàn bộ quá trình áp dụng kiến thức vào thực tiễn.
+* Dự án hoạt động ổn định, bảo mật chặt chẽ, luồng data thông suốt.
+* File Báo cáo thực tập chi tiết, phản ánh đúng những kỹ năng và kinh nghiệm thực chiến đã làm.
 
 ### Tài liệu tham khảo Tuần 9
 
-* Tài liệu hướng dẫn nội bộ First Cloud AI Journey: https://cloudjourney.awsstudygroup.com/
+* Tài liệu nội bộ First Cloud AI Journey

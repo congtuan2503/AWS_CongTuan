@@ -1,5 +1,5 @@
 ---
-title: "Tuần 3 - Giải pháp lưu trữ S3 & Dịch vụ cơ sở dữ liệu được quản lý RDS"
+title: "Tuần 3 - Quản lý dữ liệu S3 & Triển khai Database RDS"
 date: 2026-06-15
 weight: 3
 chapter: false
@@ -9,29 +9,29 @@ url: "/vi/1-worklog/1.3-week3/"
 
 ### Chủ đề tuần
 
-Giải pháp lưu trữ đối tượng + Dịch vụ cơ sở dữ liệu quan hệ được quản lý
+Thao tác với Object Storage S3 + Cấu hình Database RDS
 
 ### Mục tiêu tuần
 
-* Ứng dụng giải pháp lưu trữ đối tượng để quản lý dữ liệu phi cấu trúc.
-* Triển khai dịch vụ cơ sở dữ liệu được quản lý toàn diện.
+* Quản trị tệp tin trên S3 thông qua Console và CLI.
+* Tạo và kết nối thành công Database RDS từ máy chủ EC2.
 
 ### Lịch làm việc
 
-| Ngày | Thứ | Mô tả công việc | Nguồn tài liệu |
+| Ngày | Thứ | Mô tả công việc | Lab / Dự án |
 | :--- | :--- | :--- | :--- |
-| 15/06/2026 | Thứ 2 | - Khảo sát các giải pháp lưu trữ trên AWS<br>- Phân tích cấu trúc Bucket và Object trên S3<br>- Đánh giá các lớp lưu trữ (Standard, Glacier...) | https://docs.aws.amazon.com/AmazonS3/latest/userguide/ |
-| 16/06/2026 | Thứ 3 | - Thực hành với dịch vụ S3:<br>&emsp;+ Bật tính năng quản lý phiên bản (Versioning)<br>&emsp;+ Cấu hình lưu trữ tĩnh cho trang HTML<br>&emsp;+ Viết Bucket Policy cấp quyền đọc công khai | https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html |
-| 17/06/2026 | Thứ 4 | - Bắt đầu học phần cơ sở dữ liệu RDS:<br>&emsp;+ So sánh cơ sở dữ liệu quan hệ và phi quan hệ<br>&emsp;+ Tìm hiểu kiến trúc Đa vùng sẵn sàng (Multi-AZ)<br>&emsp;+ Chức năng Bản sao chỉ đọc (Read Replica) | https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/ |
-| 18/06/2026 | Thứ 5 | - Cung cấp cơ sở dữ liệu RDS:<br>&emsp;+ Khởi tạo Engine MySQL trên RDS<br>&emsp;+ Thiết lập tài khoản admin cho database<br>&emsp;+ Chỉnh sửa Security Group để EC2 có thể truy cập | https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.html |
-| 19/06/2026 | Thứ 6 | - Kiểm tra kết nối cơ sở dữ liệu bằng Command Line từ EC2<br>- Dọn dẹp các bản ghi test<br>- Hoàn thiện báo cáo công việc tuần 3 | https://cloudjourney.awsstudygroup.com/ |
+| 15/06/2026 | Thứ 2 | Học cách quản lý dữ liệu với bucket S3. Test tính năng upload qua CLI. | [Module: AWS Storage](https://cloudjourney.awsstudygroup.com/) |
+| 16/06/2026 | Thứ 3 | Cấu hình quyền truy cập public/private cho file trên S3. Host static website thử nghiệm. | [Lab 05 - S3 Hands-on](https://cloudjourney.awsstudygroup.com/) |
+| 17/06/2026 | Thứ 4 | Nghiên cứu dịch vụ DB Amazon RDS. Phân biệt các Database Engines. | [Module: AWS Database](https://cloudjourney.awsstudygroup.com/) |
+| 18/06/2026 | Thứ 5 | Khởi tạo database PostgreSQL/MySQL trên AWS. Cấu hình Security Group cho RDS. | [Lab 06 - RDS Deployment](https://cloudjourney.awsstudygroup.com/) |
+| 19/06/2026 | Thứ 6 | SSH vào EC2 và dùng client (mysql/psql) để kết nối vào RDS. Viết báo cáo tiến độ tuần 3. | Báo cáo tiến độ |
 
 ### Kết quả mong đợi
 
-* Giải pháp lưu trữ S3 được cấu hình an toàn với các vòng đời lưu trữ tự động.
-* Cơ sở dữ liệu RDS sẵn sàng tiếp nhận các truy vấn kết nối từ máy chủ điện toán.
+* Bucket S3 được bảo mật đúng cách, các quy tắc quản lý vòng đời hoạt động tốt.
+* Kết nối Database nội bộ (từ EC2 vào RDS) thành công, thực thi được các lệnh SQL cơ bản.
 
 ### Tài liệu tham khảo Tuần 3
 
-* Tài liệu Amazon S3: https://docs.aws.amazon.com/AmazonS3/latest/userguide/
-* Tài liệu Amazon RDS: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/
+* [Lab 05 - Object Storage with S3](https://cloudjourney.awsstudygroup.com/)
+* [Lab 06 - Managed Databases with RDS](https://cloudjourney.awsstudygroup.com/)

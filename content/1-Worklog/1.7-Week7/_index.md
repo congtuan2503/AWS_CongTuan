@@ -1,5 +1,5 @@
 ---
-title: "Week 7 - Final Project Kick-off & Architecture Diagram Design"
+title: "Week 7 - Receiving Project Topic & Network Infrastructure Drafting"
 date: 2026-07-13
 weight: 7
 chapter: false
@@ -9,29 +9,28 @@ url: "/en/1-worklog/1.7-week7/"
 
 ### Weekly Topic
 
-Project Scope Assessment + Architecture Design Planning
+Project Kick-off + System Diagram Design
 
 ### Weekly Objectives
 
-* Break down the business requirements of the real-world project.
-* Complete the overall cloud system architecture diagram design.
+* Break down practical functional requirements for the final project.
+* Draft and finalize the technical infrastructure drawing to be deployed on AWS.
 
 ### Work Schedule
 
-| Date | Day | Task Description | Reference Links |
+| Date | Day | Task Description | Lab / Project |
 | :--- | :--- | :--- | :--- |
-| 13/07/2026 | Monday | - Final Project Kick-off<br>- Analyze functional requirements<br>- Analyze non-functional requirements | FCAJ Project Brief |
-| 14/07/2026 | Tuesday | - Apply best practice frameworks (Well-Architected)<br>- Evaluate the Security Pillar<br>- Evaluate the Cost Optimization Pillar | https://docs.aws.amazon.com/wellarchitected/latest/framework/ |
-| 15/07/2026 | Wednesday | - Design system architecture diagram (Topology):<br>&emsp;+ Divide public/private subnet tiers<br>&emsp;+ Locate EC2, RDS, S3 services on the diagram<br>&emsp;+ Use Draw.io / Lucidchart tool | AWS Architecture Center |
-| 16/07/2026 | Thursday | - Present design diagram to the Mentor<br>- Receive feedback and refine the diagram<br>- Finalize the list of resources to be provisioned | https://cloudjourney.awsstudygroup.com/ |
-| 17/07/2026 | Friday | - Export high-quality image format diagram (Final Revision)<br>- Record week 7 project preparation progress | Progress Report |
+| 13/07/2026 | Monday | Receive the final project topic. Break down tasks and list required services. | Final Project |
+| 14/07/2026 | Tuesday | Read AWS Best Practices documentation to ensure secure, scalable architecture. | Final Project |
+| 15/07/2026 | Wednesday | Use Draw.io to draft network infrastructure diagram (VPC, Subnets, EC2/Lambda, DB). | Final Project |
+| 16/07/2026 | Thursday | Review diagram with Mentor. Revise and prepare the environment, necessary access keys. | Final Project |
+| 17/07/2026 | Friday | Finalize the diagram. Compile project design logs for week 7. | Progress Report |
 
 ### Expected Outcomes
 
-* Project structure is clearly delineated into work items.
-* Complete architecture diagram is ready for the practical resource provisioning phase.
+* Possess a clear, logical, and approved Architecture Diagram.
+* Necessary accounts and access permissions for the project are ready.
 
 ### Week 7 References
 
-* AWS Well-Architected: https://aws.amazon.com/architecture/well-architected/
-* AWS Architecture Center: https://aws.amazon.com/architecture/
+* [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)

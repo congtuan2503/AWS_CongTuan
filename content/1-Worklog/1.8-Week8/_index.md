@@ -1,5 +1,5 @@
 ---
-title: "Week 8 - Project Provisioning & Setup CI/CD Pipeline"
+title: "Week 8 - AWS Deployment Execution & Deploy Automation"
 date: 2026-07-20
 weight: 8
 chapter: false
@@ -9,29 +9,28 @@ url: "/en/1-worklog/1.8-week8/"
 
 ### Weekly Topic
 
-Cloud Resource Provisioning + Continuous Integration and Deployment
+Building physical AWS infrastructure + Setting up CI/CD pipeline
 
 ### Weekly Objectives
 
-* Transform the architecture diagram into practical infrastructure on the cloud platform.
-* Set up a continuous deployment pipeline to automate moving source code to environments.
+* Deploy all resources on AWS based on the finalized diagram.
+* Configure automated pipeline to push code from GitHub to the server.
 
 ### Work Schedule
 
-| Date | Day | Task Description | Reference Links |
+| Date | Day | Task Description | Lab / Project |
 | :--- | :--- | :--- | :--- |
-| 20/07/2026 | Monday | - Provision networking foundation resources:<br>&emsp;+ Initialize VPC, Internet Gateway, NAT Gateway<br>&emsp;+ Accurately configure Route Tables<br>&emsp;+ Set up Security Groups | Week 7 Architecture Diagram |
-| 21/07/2026 | Tuesday | - Deploy compute services:<br>&emsp;+ Install OS on EC2 servers<br>&emsp;+ Configure Elastic Load Balancers (ELB) if required<br>&emsp;+ Push Backend source code to servers | Backend Deployment Guide |
-| 22/07/2026 | Wednesday | - Deploy data and static storage:<br>&emsp;+ Initialize and connect RDS/DynamoDB databases<br>&emsp;+ Upload static Frontend code to S3 bucket<br>&emsp;+ Link API between Frontend and Backend | DB Deployment Guide |
-| 23/07/2026 | Thursday | - Configure CI/CD pipelines:<br>&emsp;+ Connect source code from GitHub to CodePipeline<br>&emsp;+ Define automated build processes (CodeBuild)<br>&emsp;+ Set up automated deployment processes (CodeDeploy) | https://docs.aws.amazon.com/codepipeline/latest/userguide/ |
-| 24/07/2026 | Friday | - Verify seamless operation of application Endpoints<br>- Handle initial connectivity bugs<br>- Record week 8 progress | https://cloudjourney.awsstudygroup.com/ |
+| 20/07/2026 | Monday | Execute network environment installation (VPC, Subnets, Route tables, NAT/IGW). | Final Project |
+| 21/07/2026 | Tuesday | Build the Backend environment. Run EC2 or Lambda depending on project requirements. | Final Project |
+| 22/07/2026 | Wednesday | Initialize RDS/DynamoDB. Connect Backend to Database. Test data queries. | Final Project |
+| 23/07/2026 | Thursday | Host Frontend on S3/CloudFront. Build automated deployment pipeline (CI/CD). | Final Project |
+| 24/07/2026 | Friday | Report on code progress and project deployment. Ensure main flows are operational. | Progress Report |
 
 ### Expected Outcomes
 
-* Entire infrastructure architecture is fully provisioned and ready to serve network traffic.
-* Deployment pipeline operates stably, automatically compiling and distributing source code.
+* Infrastructure runs physically on AWS matching the design.
+* Code automatically builds and deploys to AWS upon push to the main branch.
 
 ### Week 8 References
 
-* AWS CodePipeline Guide: https://docs.aws.amazon.com/codepipeline/latest/userguide/
-* DevOps on AWS Practices: https://aws.amazon.com/devops/
+* [AWS CodePipeline Documentation](https://aws.amazon.com/codepipeline/)

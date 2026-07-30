@@ -1,5 +1,5 @@
 ---
-title: "Tuần 2 - Nền tảng mạng VPC & Dịch vụ điện toán EC2"
+title: "Tuần 2 - Cấu hình mạng VPC & Khởi tạo máy chủ EC2"
 date: 2026-06-08
 weight: 2
 chapter: false
@@ -9,29 +9,29 @@ url: "/vi/1-worklog/1.2-week2/"
 
 ### Chủ đề tuần
 
-Kiến trúc Nền tảng mạng + Dịch vụ điện toán đám mây
+Triển khai hạ tầng mạng ảo VPC + Khởi chạy máy chủ ảo EC2
 
 ### Mục tiêu tuần
 
-* Nắm vững cách thiết kế một môi trường mạng ảo biệt lập an toàn.
-* Khởi tạo và vận hành dịch vụ điện toán linh hoạt thông qua máy chủ ảo.
+* Tự tay xây dựng được một mạng lưới VPC hoàn chỉnh với các kết nối Internet.
+* Cấu hình và SSH thành công vào máy chủ EC2, cài đặt web server cơ bản.
 
 ### Lịch làm việc
 
-| Ngày | Thứ | Mô tả công việc | Nguồn tài liệu |
+| Ngày | Thứ | Mô tả công việc | Lab / Dự án |
 | :--- | :--- | :--- | :--- |
-| 08/06/2026 | Thứ 2 | - Bắt đầu học phần Nền tảng mạng VPC<br>- Tìm hiểu cấu trúc khối IP (CIDR Block)<br>- Phân biệt mạng con công cộng (Public) và riêng tư (Private) | https://docs.aws.amazon.com/vpc/latest/userguide/ |
-| 09/06/2026 | Thứ 3 | - Thực hành thiết lập VPC:<br>&emsp;+ Tạo 1 VPC mới với dải IP 10.0.0.0/16<br>&emsp;+ Cấu hình Cổng kết nối Internet (IGW)<br>&emsp;+ Cập nhật bảng định tuyến (Route Table) | https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html |
-| 10/06/2026 | Thứ 4 | - Tìm hiểu về dịch vụ điện toán linh hoạt EC2:<br>&emsp;+ Phân loại Instance (T3, M5, C5...)<br>&emsp;+ Tìm hiểu Amazon Machine Image (AMI)<br>&emsp;+ Ổ cứng đàn hồi (EBS) | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ |
-| 11/06/2026 | Thứ 5 | - Khởi chạy một phiên bản EC2:<br>&emsp;+ Tạo cặp khóa SSH (Key Pair)<br>&emsp;+ Cấu hình nhóm bảo mật mở cổng 22<br>&emsp;+ Đăng nhập từ xa vào máy chủ Linux | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html |
-| 12/06/2026 | Thứ 6 | - Đánh giá tổng quan về dịch vụ mạng và điện toán<br>- Dừng (Stop) máy chủ EC2 để tiết kiệm chi phí<br>- Ghi nhận tiến độ tuần 2 | https://cloudjourney.awsstudygroup.com/ |
+| 08/06/2026 | Thứ 2 | Tìm hiểu kiến trúc mạng ảo Amazon VPC. Tính toán và chia IP CIDR. | [Module: Amazon VPC](https://cloudjourney.awsstudygroup.com/) |
+| 09/06/2026 | Thứ 3 | Thực hành phân chia Public và Private Subnet. Gắn Internet Gateway cho Public Subnet. | [Lab 03 - VPC Configuration](https://cloudjourney.awsstudygroup.com/) |
+| 10/06/2026 | Thứ 4 | Nghiên cứu dịch vụ tính toán Amazon EC2 và các loại AMI. | [Module: Amazon EC2](https://cloudjourney.awsstudygroup.com/) |
+| 11/06/2026 | Thứ 5 | Khởi tạo máy chủ Ubuntu trên EC2. Cấu hình Security Group mở port 22 và 80. | [Lab 04 - Launch EC2](https://cloudjourney.awsstudygroup.com/) |
+| 12/06/2026 | Thứ 6 | SSH vào server cài đặt Nginx/Apache. Kiểm tra truy cập web và tổng kết tuần 2. | Báo cáo tiến độ |
 
 ### Kết quả mong đợi
 
-* Môi trường mạng VPC được định tuyến và phân chia mạng con chính xác.
-* Máy chủ điện toán EC2 hoạt động ổn định và có thể truy cập an toàn.
+* Mạng VPC hoạt động trơn tru, định tuyến luồng traffic rõ ràng.
+* EC2 instance được khởi chạy thành công, host được một trang HTML cơ bản.
 
 ### Tài liệu tham khảo Tuần 2
 
-* Tài liệu VPC gốc: https://docs.aws.amazon.com/vpc/latest/userguide/
-* Tài liệu EC2 gốc: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/
+* [Lab 03 - Basic networking with Amazon VPC](https://cloudjourney.awsstudygroup.com/)
+* [Lab 04 - Introduction to Amazon EC2](https://cloudjourney.awsstudygroup.com/)

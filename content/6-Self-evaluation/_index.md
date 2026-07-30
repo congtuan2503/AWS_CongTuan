@@ -6,35 +6,34 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+During my internship at **Amazon Web Services Viet Nam Company Limited** from **01/06/2026** to **31/07/2026** within the **Workforce Bootcamp - First Cloud AI Journey** program, I had the valuable opportunity to learn, practice, and apply cloud computing and AI concepts to a real-world enterprise environment.
 
-During my internship at **[Company/Organization Name]** from **[start date]** to **[end date]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+I actively participated in completing hands-on lab series, constructing practical projects on AWS infrastructure, and supporting tech workshops/events. Through these experiences, I significantly enhanced my technical skills in cloud engineering, system analysis, teamwork, and professional communication.
 
-In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
+Notably, during the internship period, I successfully completed the **AWS Cloud Practitioner Essentials** certification, solidifying my foundational knowledge of AWS core services, security architecture, and cloud economics.
 
-To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
+To objectively reflect on my internship period, I evaluate myself based on the following criteria:
 
-| No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
-| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ☐    | ☐    | ✅       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅    | ☐       |
-| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅    | ☐       |
-| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
-| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅    | ☐       |
-| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
+| No. | Criteria | Description | Good | Fair | Average |
+| --- | --- | --- | ---- | ---- | ------- |
+| 1 | **Professional knowledge & skills** | Understanding AWS services, applying knowledge in labs & projects, work quality | ✅ | ☐ | ☐ |
+| 2 | **Ability to learn** | Rapidly absorbing new Cloud & AI knowledge, self-researching documentation | ✅ | ☐ | ☐ |
+| 3 | **Proactiveness** | Taking initiative in task completion and problem-solving without waiting for prompts | ✅ | ☐ | ☐ |
+| 4 | **Sense of responsibility** | Delivering project milestones on time with high quality | ✅ | ☐ | ☐ |
+| 5 | **Discipline** | Complying strictly with schedules, security policies, and company workflows | ✅ | ☐ | ☐ |
+| 6 | **Progressive mindset** | Actively welcoming feedback from mentors & peers for continuous improvement | ✅ | ☐ | ☐ |
+| 7 | **Communication** | Presenting technical ideas and reporting work progress clearly | ☐ | ✅ | ☐ |
+| 8 | **Teamwork** | Collaborating effectively with team members and offering mutual support | ✅ | ☐ | ☐ |
+| 9 | **Professional conduct** | Maintaining respect for colleagues, partners, and the corporate environment | ✅ | ☐ | ☐ |
+| 10 | **Problem-solving skills** | Identifying infrastructure/technical issues and proposing creative solutions | ☐ | ✅ | ☐ |
+| 11 | **Contribution to project/team** | Earning AWS Cloud Practitioner Essentials, delivering impactful team solutions | ✅ | ☐ | ☐ |
+| 12 | **Overall** | General evaluation of professional growth during the entire internship | ✅ | ☐ | ☐ |
 
-### Needs Improvement
+### Extra Achievements
+* **AWS Certification**: Successfully completed and earned the **AWS Cloud Practitioner Essentials** certification, mastering fundamental concepts of AWS Cloud architecture, security, and pricing models.
+* **Practical Application**: Successfully applied AWS cloud services to complete hands-on internship project deliverables.
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
-* Improve problem-solving thinking  
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
-
+### Areas for Future Improvement
+* Further refine technical communication and presentation skills when explaining complex architecture to diverse audiences.
+* Strengthen skills in Cloud architecture optimization (Well-Architected Framework) and CI/CD automation.
+* Prepare a roadmap to pursue higher-level AWS certifications (such as AWS Certified Solutions Architect – Associate).

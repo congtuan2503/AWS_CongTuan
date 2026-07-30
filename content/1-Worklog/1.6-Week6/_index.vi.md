@@ -1,5 +1,5 @@
 ---
-title: "Tuần 6 - Giám sát hệ thống CloudWatch & Hạ tầng dưới dạng mã CloudFormation"
+title: "Tuần 6 - Giám sát hệ thống CloudWatch & Tự động hóa CloudFormation"
 date: 2026-07-06
 weight: 6
 chapter: false
@@ -9,29 +9,28 @@ url: "/vi/1-worklog/1.6-week6/"
 
 ### Chủ đề tuần
 
-Giám sát số liệu hệ thống + Cung cấp hạ tầng dưới dạng mã
+Monitor bằng CloudWatch + Cấu hình Infrastructure as Code (IaC)
 
 ### Mục tiêu tuần
 
-* Thu thập nhật ký và số liệu giám sát tình trạng sức khỏe của tài nguyên.
-* Chuyển đổi công tác cấu hình thủ công sang kịch bản hạ tầng dưới dạng mã.
+* Tự thiết lập các cảnh báo tự động khi server quá tải.
+* Viết code triển khai hạ tầng (CloudFormation) thay vì thao tác tay bằng chuột.
 
 ### Lịch làm việc
 
-| Ngày | Thứ | Mô tả công việc | Nguồn tài liệu |
+| Ngày | Thứ | Mô tả công việc | Lab / Dự án |
 | :--- | :--- | :--- | :--- |
-| 06/07/2026 | Thứ 2 | - Học phần giám sát hệ thống Amazon CloudWatch<br>- Phân biệt Số liệu (Metrics), Báo động (Alarms) và Nhật ký (Logs)<br>- Tìm hiểu dịch vụ thông báo SNS | https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/ |
-| 07/07/2026 | Thứ 3 | - Thực hành giám sát tài nguyên:<br>&emsp;+ Xem chỉ số CPU của máy chủ EC2<br>&emsp;+ Đặt ngưỡng báo động gửi email khi CPU vượt mức 80%<br>&emsp;+ Chạy kịch bản tải ảo (Stress Test) để kích hoạt báo động | https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GettingStarted.html |
-| 08/07/2026 | Thứ 4 | - Khái niệm Hạ tầng dưới dạng mã (Infrastructure as Code - IaC)<br>- Tìm hiểu cấu trúc mẫu (Template) của CloudFormation:<br>&emsp;+ Parameters<br>&emsp;+ Resources<br>&emsp;+ Outputs | https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ |
-| 09/07/2026 | Thứ 5 | - Thực hành viết mã hạ tầng:<br>&emsp;+ Soạn kịch bản định dạng YAML để tạo VPC và Subnet<br>&emsp;+ Tải tệp lên CloudFormation Console để triển khai Ngăn xếp (Stack)<br>&emsp;+ Xác minh kết quả trên VPC Dashboard | https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/GettingStarted.html |
-| 10/07/2026 | Thứ 6 | - Dọn dẹp (Delete Stack) để thu hồi toàn bộ tài nguyên tự động<br>- Ghi chép nhật ký thực hành tuần 6 | https://cloudjourney.awsstudygroup.com/ |
+| 06/07/2026 | Thứ 2 | Cài đặt CloudWatch Agent để theo dõi log và metrics chi tiết từ EC2. | [Module: CloudWatch](https://cloudjourney.awsstudygroup.com/) |
+| 07/07/2026 | Thứ 3 | Tạo custom dashboard giám sát trên CloudWatch. Thiết lập SNS gửi email khi CPU > 80%. | [Lab 11 - Monitor Alerts](https://cloudjourney.awsstudygroup.com/) |
+| 08/07/2026 | Thứ 4 | Tìm hiểu tự động hóa hạ tầng bằng CloudFormation. Đọc hiểu syntax YAML. | [Module: IaC](https://cloudjourney.awsstudygroup.com/) |
+| 09/07/2026 | Thứ 5 | Triển khai thử 1 stack tạo VPC và Security Group hoàn toàn bằng code CloudFormation. | [Lab 12 - CloudFormation](https://cloudjourney.awsstudygroup.com/) |
+| 10/07/2026 | Thứ 6 | Verify tài nguyên được tạo từ Stack. Đánh giá quá trình học tập tuần 6. | Báo cáo tiến độ |
 
 ### Kết quả mong đợi
 
-* Hệ thống giám sát chủ động báo động khi có các dấu hiệu bất thường về số liệu.
-* Quy trình tạo lập tài nguyên được chuẩn hóa thành các tệp cấu hình có thể tái sử dụng.
+* Bảng điều khiển CloudWatch hiển thị trực quan các thông số hệ thống.
+* Chạy thành công template IaC, khởi tạo tự động toàn bộ block mạng cơ bản.
 
 ### Tài liệu tham khảo Tuần 6
 
-* Hướng dẫn Amazon CloudWatch: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/
-* Hướng dẫn AWS CloudFormation: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/
+* [Lab 11 & 12 - Management and IaC](https://cloudjourney.awsstudygroup.com/)

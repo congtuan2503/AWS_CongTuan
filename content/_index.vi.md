@@ -1,23 +1,23 @@
 ---
 title: "Báo cáo thực tập"
-date: 2026-29-07
+date: 2024-01-01
 weight: 1
 chapter: false
 ---
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Trần Hữu Đức
+&emsp; **Họ và tên:** Nguyễn Công Tuấn
 
-&emsp; **Số điện thoại:** 0707999841
+&emsp; **Số điện thoại:** 0857151256
 
-&emsp; **Email:** duc.nguyen0022521670@hcmut.edu.vn
+&emsp; **Email:** tuan.nguyencong@hcmut.edu.vn
 
 &emsp; **Trường:** Đại học Bách Khoa TP.HCM
 
-&emsp; **Ngành:** Khoa học máy tính
+&emsp; **Ngành:** Khoa Học Máy Tính
 
-&emsp; **Lớp:** CC22KHM4
+&emsp; **Lớp:** CN23KHM2
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Viet Nam
 
@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 01/06/2026 đến ngày 31/07/2026
 
-![Ảnh đại diện của bạn](/images/avatar.jpg)
+<img src="/images/avatar.png" alt="Ảnh đại diện của bạn" style="max-width: 400px; height: auto; border-radius: 8px;" />
 
 
 

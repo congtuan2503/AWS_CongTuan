@@ -70,6 +70,4 @@ Tuy asset tạo ra chưa thể dùng ngay cho các dự án AAA đòi hỏi tố
 * **AWS Games Blog – Open source 3D game asset generation using AWS:** https://aws.amazon.com/blogs/aws/open-source-3d-game-asset-generation-using-aws/
 * **TripoSG Repository:** https://github.com/VAST-AI-Research/TripoSG
 * **MV-Adapter Repository:** https://github.com/huanngzh/MV-Adapter
-
-<img src="/AWS_HuuDuc/images/Blogs/blog2.png" alt="Blog 2" width="1000" />
-
+<img src="/images/blog2.png" alt="Blog 2" width="1000" />

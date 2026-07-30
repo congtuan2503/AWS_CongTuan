@@ -6,35 +6,34 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Trong suốt thời gian thực tập tại **Amazon Web Services Viet Nam Company Limited** từ **01/06/2026** đến **31/07/2026** trong chương trình **Workforce Bootcamp - First Cloud AI Journey**, em đã có cơ hội học hỏi, rèn luyện và áp dụng các kiến thức điện toán đám mây cũng như trí tuệ nhân tạo vào môi trường thực tế.
 
-Trong suốt thời gian thực tập tại **[Tên công ty/tổ chức]** từ **[ngày bắt đầu]** đến **[ngày kết thúc]**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
-Tôi đã tham gia **[mô tả ngắn gọn dự án hoặc công việc chính]**, qua đó cải thiện kỹ năng **[liệt kê kỹ năng: lập trình, phân tích, viết báo cáo, giao tiếp…]**.  
+Em đã chủ động tham gia hoàn thành các chuỗi bài lab, xây dựng dự án thực tế trên hạ tầng AWS và hỗ trợ tổ chức các buổi workshop/event công nghệ. Qua đó, em đã củng cố và nâng cao đáng kể các kỹ năng về kỹ thuật cloud, tư duy phân tích hệ thống, làm việc nhóm và giao tiếp chuyên nghiệp.
 
-Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
+Đặc biệt, trong quá trình thực tập, em đã nỗ lực tự học và hoàn thành xuất sắc chứng chỉ **AWS Cloud Practitioner Essentials**, khẳng định nền tảng kiến thức vững chắc về các dịch vụ đám mây AWS, mô hình bảo mật và chi phí vận hành.
 
-Để phản ánh một cách khách quan quá trình thực tập, tôi xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
+Để phản ánh một cách khách quan quá trình thực tập, em xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
 
+| STT | Tiêu chí | Mô tả | Tốt | Khá | Trung bình |
+| --- | --- | --- | --- | --- | ---------- |
+| 1 | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về dịch vụ AWS, áp dụng kiến thức vào bài lab & dự án thực tế, chất lượng công việc | ✅ | ☐ | ☐ |
+| 2 | **Khả năng học hỏi** | Tiếp thu kiến thức Cloud & AI mới nhanh chóng, chủ động tra cứu tài liệu | ✅ | ☐ | ☐ |
+| 3 | **Chủ động** | Tự giác tìm hiểu, nhận nhiệm vụ và giải quyết khó khăn mà không chờ chỉ dẫn | ✅ | ☐ | ☐ |
+| 4 | **Tinh thần trách nhiệm** | Hoàn thành các cột mốc dự án đúng hạn và đảm bảo chất lượng | ✅ | ☐ | ☐ |
+| 5 | **Kỷ luật** | Tuân thủ giờ giấc, quy định bảo mật và quy trình làm việc của công ty | ✅ | ☐ | ☐ |
+| 6 | **Tính cầu tiến** | Lắng nghe feedback từ mentor & đồng nghiệp để không ngừng hoàn thiện | ✅ | ☐ | ☐ |
+| 7 | **Giao tiếp** | Trình bày ý tưởng kỹ thuật và báo cáo tiến độ công việc rõ ràng, rành mạch | ☐ | ✅ | ☐ |
+| 8 | **Hợp tác nhóm** | Phối hợp hiệu quả với các thành viên trong đội ngũ và hỗ trợ lẫn nhau | ✅ | ☐ | ☐ |
+| 9 | **Ứng xử chuyên nghiệp** | Tôn trọng môi trường làm việc doanh nghiệp, đồng nghiệp và đối tác | ✅ | ☐ | ☐ |
+| 10 | **Tư duy giải quyết vấn đề** | Nhận diện sự cố hạ tầng/kỹ thuật, đề xuất giải pháp tối ưu và sáng tạo | ☐ | ✅ | ☐ |
+| 11 | **Đóng góp vào dự án/tổ chức** | Đạt chứng chỉ AWS Cloud Practitioner Essentials, đóng góp giải pháp cho team | ✅ | ☐ | ☐ |
+| 12 | **Tổng thể** | Đánh giá chung về sự trưởng thành và kết quả đạt được sau kỳ thực tập | ✅ | ☐ | ☐ |
 
-| STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
-| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ, chất lượng công việc | ✅   | ☐   | ☐          |
-| 2   | **Khả năng học hỏi**                | Tiếp thu kiến thức mới, học hỏi nhanh                                                            | ☐   | ✅   | ☐          |
-| 3   | **Chủ động**                        | Tự tìm hiểu, nhận nhiệm vụ mà không chờ chỉ dẫn                                                  | ✅   | ☐   | ☐          |
-| 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng hạn, đảm bảo chất lượng                                                | ✅   | ☐   | ☐          |
-| 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, nội quy, quy trình làm việc                                                   | ☐   | ☐   | ✅          |
-| 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback và cải thiện bản thân                                                     | ☐   | ✅   | ☐          |
-| 7   | **Giao tiếp**                       | Trình bày ý tưởng, báo cáo công việc rõ ràng                                                     | ☐   | ✅   | ☐          |
-| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng nghiệp, tham gia nhóm                                                 | ✅   | ☐   | ☐          |
-| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, đối tác, môi trường làm việc                                              | ✅   | ☐   | ☐          |
-| 10  | **Tư duy giải quyết vấn đề**        | Nhận diện vấn đề, đề xuất giải pháp, sáng tạo                                                    | ☐   | ✅   | ☐          |
-| 11  | **Đóng góp vào dự án/tổ chức**      | Hiệu quả công việc, sáng kiến cải tiến, ghi nhận từ team                                         | ✅   | ☐   | ☐          |
-| 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ quá trình thực tập                                                     | ✅   | ☐   | ☐          |
+### Thành tựu nổi bật (Extra Achievement)
+* **Chứng chỉ Cloud**: Hoàn thành khóa học và đạt chứng chỉ **AWS Cloud Practitioner Essentials**, nắm vững các khái niệm cốt lõi về AWS Cloud, Security, Architecture và Pricing.
+* **Xây dựng giải pháp**: Ứng dụng thành công các dịch vụ đám mây AWS vào dự án báo cáo thực tập đạt hiệu quả cao.
 
-### Cần cải thiện
-
-* Nâng cao tính kỹ luật, chấp hành nghiêm chỉnh nội quy của công ty hoặc bất kỳ trong một tổ chức nào
-* Cải thiện trong cách tư duy giải quyết vấn đề
-* Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống
+### Định hướng cải thiện bản thân
+* Tiếp tục trau dồi và nâng cao kỹ năng giao tiếp, thuyết trình các giải pháp kỹ thuật phức tạp trước đám đông.
+* Đẩy mạnh tư duy tối ưu hóa kiến trúc hạ tầng Cloud (Well-Architected Framework) và tự động hóa quy trình CI/CD.
+* Chuẩn bị lộ trình học tập để chinh phục các chứng chỉ AWS ở cấp độ cao hơn (AWS Certified Solutions Architect – Associate).

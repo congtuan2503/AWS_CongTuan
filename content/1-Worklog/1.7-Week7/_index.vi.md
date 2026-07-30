@@ -1,5 +1,5 @@
 ---
-title: "Tuần 7 - Khởi động dự án cuối khóa & Thiết kế sơ đồ kiến trúc"
+title: "Tuần 7 - Nhận đề tài Dự án & Phác thảo hạ tầng mạng"
 date: 2026-07-13
 weight: 7
 chapter: false
@@ -9,29 +9,28 @@ url: "/vi/1-worklog/1.7-week7/"
 
 ### Chủ đề tuần
 
-Đánh giá phạm vi dự án + Lên phương án thiết kế kiến trúc
+Kick-off Dự án + Thiết kế Sơ đồ hệ thống
 
 ### Mục tiêu tuần
 
-* Bóc tách các yêu cầu nghiệp vụ của dự án thực tế.
-* Hoàn thiện bản thiết kế sơ đồ kiến trúc hệ thống đám mây tổng thể.
+* Bóc tách các chức năng thực tế cần làm cho dự án cuối khóa.
+* Phác thảo và chốt được bản vẽ kỹ thuật hạ tầng sẽ triển khai trên AWS.
 
 ### Lịch làm việc
 
-| Ngày | Thứ | Mô tả công việc | Nguồn tài liệu |
+| Ngày | Thứ | Mô tả công việc | Lab / Dự án |
 | :--- | :--- | :--- | :--- |
-| 13/07/2026 | Thứ 2 | - Khởi động dự án cuối khóa thực tập<br>- Phân tích yêu cầu chức năng (Functional)<br>- Phân tích yêu cầu phi chức năng (Non-functional) | Tài liệu đề bài FCAJ |
-| 14/07/2026 | Thứ 3 | - Áp dụng các khung thực hành tốt nhất (Well-Architected Framework)<br>- Đánh giá cột trụ Bảo mật (Security Pillar)<br>- Đánh giá cột trụ Tối ưu chi phí (Cost Optimization Pillar) | https://docs.aws.amazon.com/wellarchitected/latest/framework/ |
-| 15/07/2026 | Thứ 4 | - Thiết kế sơ đồ kiến trúc hệ thống (Topology):<br>&emsp;+ Phân chia các tầng public/private subnet<br>&emsp;+ Định vị dịch vụ EC2, RDS, S3 trên sơ đồ<br>&emsp;+ Sử dụng công cụ Draw.io / Lucidchart | Cẩm nang kiến trúc AWS |
-| 16/07/2026 | Thứ 5 | - Trình bày sơ đồ thiết kế với cố vấn (Mentor)<br>- Tiếp nhận phản hồi và chỉnh sửa sơ đồ<br>- Chốt danh sách tài nguyên cần cung cấp thực tế | https://cloudjourney.awsstudygroup.com/ |
-| 17/07/2026 | Thứ 6 | - Xuất sơ đồ định dạng ảnh chất lượng cao (Revision cuối)<br>- Ghi nhận tiến độ chuẩn bị dự án tuần 7 | Báo cáo tiến độ |
+| 13/07/2026 | Thứ 2 | Nhận đề tài dự án cuối khóa. Bóc tách task và liệt kê dịch vụ cần dùng. | Dự án cuối khóa |
+| 14/07/2026 | Thứ 3 | Đọc tài liệu AWS Best Practices để đảm bảo kiến trúc an toàn, dễ scale. | Dự án cuối khóa |
+| 15/07/2026 | Thứ 4 | Dùng Draw.io phác thảo sơ đồ hạ tầng mạng (VPC, Subnets, EC2/Lambda, DB). | Dự án cuối khóa |
+| 16/07/2026 | Thứ 5 | Review sơ đồ với Mentor. Chỉnh sửa và chuẩn bị môi trường, các key access cần thiết. | Dự án cuối khóa |
+| 17/07/2026 | Thứ 6 | Chốt sơ đồ cuối. Tổng hợp log thiết kế dự án tuần 7. | Báo cáo tiến độ |
 
 ### Kết quả mong đợi
 
-* Cấu trúc dự án được phân định rõ ràng các hạng mục công việc.
-* Bản sơ đồ kiến trúc hoàn chỉnh, sẵn sàng cho công đoạn cấp phát tài nguyên thực tế.
+* Có trong tay bản vẽ Architecture Diagram rõ ràng, hợp lý và đã được duyệt.
+* Các tài khoản, quyền truy cập cần thiết cho dự án đã sẵn sàng.
 
 ### Tài liệu tham khảo Tuần 7
 
-* AWS Well-Architected: https://aws.amazon.com/architecture/well-architected/
-* Trung tâm kiến trúc AWS: https://aws.amazon.com/architecture/
+* [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)

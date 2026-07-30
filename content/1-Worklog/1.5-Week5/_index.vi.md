@@ -1,5 +1,5 @@
 ---
-title: "Tuần 5 - Kiến thức cơ bản về DynamoDB & Hạ tầng toàn cầu CloudFront"
+title: "Tuần 5 - Thao tác DynamoDB & Tăng tốc web với CloudFront"
 date: 2026-06-29
 weight: 5
 chapter: false
@@ -9,29 +9,29 @@ url: "/vi/1-worklog/1.5-week5/"
 
 ### Chủ đề tuần
 
-Cơ sở dữ liệu phi quan hệ + Mạng phân phối nội dung hạ tầng toàn cầu
+Sử dụng NoSQL DynamoDB + Phân phối nội dung CloudFront & Route 53
 
 ### Mục tiêu tuần
 
-* Hiểu và thao tác với dịch vụ cơ sở dữ liệu phi quan hệ hiệu suất cao.
-* Tận dụng hạ tầng toàn cầu để giảm độ trễ truy cập nội dung web.
+* Thiết kế và tương tác CRUD dữ liệu thực tế trên bảng DynamoDB.
+* Gắn domain và thiết lập mạng CDN để tăng tốc độ truy cập web.
 
 ### Lịch làm việc
 
-| Ngày | Thứ | Mô tả công việc | Nguồn tài liệu |
+| Ngày | Thứ | Mô tả công việc | Lab / Dự án |
 | :--- | :--- | :--- | :--- |
-| 29/06/2026 | Thứ 2 | - Nắm bắt mô hình cơ sở dữ liệu DynamoDB (NoSQL)<br>- Tìm hiểu Khóa phân vùng (Partition Key) và Khóa sắp xếp (Sort Key)<br>- Đọc tài liệu về dung lượng tính toán (RCU/WCU) | https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ |
-| 30/06/2026 | Thứ 3 | - Thực hành thao tác trên DynamoDB:<br>&emsp;+ Khởi tạo bảng dữ liệu người dùng<br>&emsp;+ Dùng giao diện để thêm (PutItem) và lấy (GetItem) dữ liệu<br>&emsp;+ Phân biệt truy vấn Scan và Query | https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.html |
-| 01/07/2026 | Thứ 4 | - Tìm hiểu dịch vụ DNS Amazon Route 53<br>- Tìm hiểu kiến trúc mạng phân phối nội dung CloudFront<br>- Vai trò của các Điểm biên (Edge Locations) | https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/ |
-| 02/07/2026 | Thứ 5 | - Cấu hình mạng phân phối nội dung:<br>&emsp;+ Khởi tạo CloudFront Distribution mới<br>&emsp;+ Trỏ Nguồn gốc (Origin) về Bucket S3 tĩnh<br>&emsp;+ Cấu hình chính sách Cache Behavior | https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/GettingStarted.html |
-| 03/07/2026 | Thứ 6 | - Đánh giá hiệu suất truy cập qua link CloudFront so với link S3 gốc<br>- Hủy bỏ các cấu hình Route 53 nháp<br>- Tóm tắt tiến độ tuần 5 | https://cloudjourney.awsstudygroup.com/ |
+| 29/06/2026 | Thứ 2 | Nghiên cứu cơ sở dữ liệu phi quan hệ DynamoDB. Tạo table và định nghĩa Key. | [Module: DynamoDB](https://cloudjourney.awsstudygroup.com/) |
+| 30/06/2026 | Thứ 3 | Thực hành thao tác CRUD dữ liệu trên DynamoDB bằng console và script. | [Lab 09 - DynamoDB CRUD](https://cloudjourney.awsstudygroup.com/) |
+| 01/07/2026 | Thứ 4 | Tìm hiểu dịch vụ DNS của AWS (Route 53). Khởi tạo Hosted Zone. | [Module: Route 53](https://cloudjourney.awsstudygroup.com/) |
+| 02/07/2026 | Thứ 5 | Cấu hình CDN với Amazon CloudFront để tăng tốc độ phân phối nội dung từ S3. | [Lab 10 - CloudFront Setup](https://cloudjourney.awsstudygroup.com/) |
+| 03/07/2026 | Thứ 6 | Trỏ domain từ Route 53 sang CloudFront. Tóm tắt nội dung đã thực hành trong tuần. | Báo cáo tiến độ |
 
 ### Kết quả mong đợi
 
-* Bảng dữ liệu DynamoDB được thiết kế đúng chuẩn hiệu suất cao với khóa phân vùng hợp lý.
-* Nội dung tĩnh được lưu vào bộ nhớ đệm tại các điểm biên của hạ tầng toàn cầu.
+* Thao tác thuần thục việc thêm/sửa/xóa item trong DynamoDB.
+* Web tĩnh tải nhanh hơn nhờ được cache tại các edge locations của CloudFront.
 
 ### Tài liệu tham khảo Tuần 5
 
-* Tài liệu Amazon DynamoDB: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/
-* Tài liệu Amazon CloudFront: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/
+* [Lab 09 - Amazon DynamoDB](https://cloudjourney.awsstudygroup.com/)
+* [Lab 10 - Route 53 & CloudFront](https://cloudjourney.awsstudygroup.com/)

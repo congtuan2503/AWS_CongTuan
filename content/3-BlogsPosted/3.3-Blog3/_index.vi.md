@@ -92,3 +92,4 @@ Sự góp mặt của MiniMax family trên Amazon Bedrock mang lại thêm một
 https://aws.amazon.com/blogs/machine-learning/run-minimax-models-on-amazon-bedrock/
 * **MiniMax Models Documentation on AWS:** https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-minimax.html
 
+<img src="/images/blog3.jpg" alt="Blog 3" width="1000" />

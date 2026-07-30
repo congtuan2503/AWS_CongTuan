@@ -9,17 +9,17 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Full Name:** Nguyen Tran Huu Duc
+&emsp; **Full Name:** Nguyen Cong Tuan
 
-&emsp; **Phone Number:** 0707999841 
+&emsp; **Phone Number:** 0857151256
 
-&emsp; **Email:** duc.nguyen0022521670@hcmut.edu.vn
+&emsp; **Email:** tuan.nguyencong@hcmut.edu.vn
 
 &emsp; **University:** Ho Chi Minh City University of Technology
 
 &emsp; **Major:** Computer Science
 
-&emsp; **Class:** CC22KHM4
+&emsp; **Class:** CN23KHM2
 
 &emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
 
@@ -27,7 +27,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 01/06/2026 to 31/07/2026
 
-![Your profile picture](/images/avatar.jpg)
+<img src="/images/avatar.png" alt="Ảnh đại diện của bạn" style="max-width: 400px; height: auto; border-radius: 8px;" />
 
 ### Report Content
 
@@ -38,4 +38,3 @@ chapter: false
 5.  [Workshop](5-Workshop/)
 6.  [Self-evaluation](6-Self-evaluation/)
 7.  [Sharing and Feedback](7-Feedback/)
-
