@@ -8,7 +8,7 @@ pre: " <b> 5.1. </b> "
 
 <div style="text-align: center; margin: 20px 0;">
 
-  ![TrackerMaintenance Architecture](AWS_Architecture.png)
+  ![TrackerMaintenance Architecture](AWS_Architecture_new.png)
 
   <div style="font-weight: bold; margin-top: 8px; color: #555;">Figure 1. Overall architecture of the network infrastructure and AWS service integration for the Tracker Maintenance project.</div>
 </div>
@@ -99,24 +99,24 @@ GitHub Actions CI/CD Pipeline
 
 ## 5. Technology Stack Summary
 
-| Layer | Technology | Version | Purpose |
-|---|---|---|---|
-| Frontend Framework | React Router | v7 (SSR) | Single Page Application with Server-Side Rendering |
-| Frontend Language | TypeScript | 5.x | Type-safe frontend development |
-| Frontend Styling | TailwindCSS | v3 | Utility-first responsive CSS |
-| Backend Framework | Spring Boot | 3.5 | REST API server |
-| Backend Language | Java | 21 (LTS) | Backend business logic |
-| Backend Security | Spring Security + JWT | 6.x | Authentication & authorization |
-| Database | PostgreSQL | 15 | Relational database |
-| Container Runtime | Docker + Docker Compose | 24.x | Application containerization |
-| Container Registry | Amazon ECR | - | Private Docker image registry |
-| Compute | Amazon EC2 | t2.micro | Cloud virtual server |
-| Database Service | Amazon RDS | PostgreSQL | Managed cloud database |
-| Object Storage | Amazon S3 | - | Image and media file storage |
-| CDN | Amazon CloudFront | - | Global content delivery & SSL |
-| Logging | Amazon CloudWatch | - | Centralized log management |
-| Identity | AWS IAM | - | Permissions and access control |
-| DNS | Route 53 + dpdns.org | - | Domain name system |
-| CI/CD | GitHub Actions | - | Automated build and deployment |
-| Real-time | WebSocket (SockJS/STOMP) | - | Push notification system |
-| Code Repository | GitHub | - | Source code version control |
+| Layer              | Technology               | Version    | Purpose                                            |
+| ------------------ | ------------------------ | ---------- | -------------------------------------------------- |
+| Frontend Framework | React Router             | v7 (SSR)   | Single Page Application with Server-Side Rendering |
+| Frontend Language  | TypeScript               | 5.x        | Type-safe frontend development                     |
+| Frontend Styling   | TailwindCSS              | v3         | Utility-first responsive CSS                       |
+| Backend Framework  | Spring Boot              | 3.5        | REST API server                                    |
+| Backend Language   | Java                     | 21 (LTS)   | Backend business logic                             |
+| Backend Security   | Spring Security + JWT    | 6.x        | Authentication & authorization                     |
+| Database           | PostgreSQL               | 15         | Relational database                                |
+| Container Runtime  | Docker + Docker Compose  | 24.x       | Application containerization                       |
+| Container Registry | Amazon ECR               | -          | Private Docker image registry                      |
+| Compute            | Amazon EC2               | t2.micro   | Cloud virtual server                               |
+| Database Service   | Amazon RDS               | PostgreSQL | Managed cloud database                             |
+| Object Storage     | Amazon S3                | -          | Image and media file storage                       |
+| CDN                | Amazon CloudFront        | -          | Global content delivery & SSL                      |
+| Logging            | Amazon CloudWatch        | -          | Centralized log management                         |
+| Identity           | AWS IAM                  | -          | Permissions and access control                     |
+| DNS                | Route 53 + dpdns.org     | -          | Domain name system                                 |
+| CI/CD              | GitHub Actions           | -          | Automated build and deployment                     |
+| Real-time          | WebSocket (SockJS/STOMP) | -          | Push notification system                           |
+| Code Repository    | GitHub                   | -          | Source code version control                        |
